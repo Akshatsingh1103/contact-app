@@ -1,12 +1,63 @@
-# React + Vite
+📇 Comic-Themed Contact App
+A fun, comic-styled Contact Management App that allows users to search, add, and update contacts with ease. Built using React for the frontend and Firebase for the backend.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🔍 Search contacts by name or email
 
-Currently, two official plugins are available:
+➕ Add new contacts using a form modal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✏ Update existing contact details
 
-## Expanding the ESLint configuration
+☁ Firebase integration for real-time database operations
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Comic-style UI for a playful user experience
+
+🛠 Tech Stack
+Frontend: React, Tailwind CSS (with Comic-theme styling)
+
+Backend: Firebase (Realtime Database)
+
+State Management: useState, useEffect
+
+Form Handling: Formik + Yup with Modals
+
+Notifications: React Toastify (comic styling enabled — improvements ongoing)
+
+🚀 Getting Started
+1. Clone the Repo
+bash
+Copy
+Edit
+git clone https://github.com/your-username/contact-app.git
+cd contact-app
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Add Firebase Config
+Create a .env file in the root directory and add your Firebase credentials:
+
+env
+Copy
+Edit
+REACT_APP_API_KEY=your_api_key
+REACT_APP_AUTH_DOMAIN=your_project_id.firebaseapp.com
+REACT_APP_DATABASE_URL=your_database_url
+REACT_APP_PROJECT_ID=your_project_id
+REACT_APP_STORAGE_BUCKET=your_project_id.appspot.com
+REACT_APP_MESSAGING_SENDER_ID=your_sender_id
+REACT_APP_APP_ID=your_app_id
+4. Start the App
+bash
+Copy
+Edit
+npm run dev
+⚠ Known Issues
+Toast notifications appear but don’t auto-close sometimes. Investigating potential style override issues or improper ToastContainer configs.
+
+📷 Screenshots
+(Optional section — Add screenshots of your app here using ![desc](path) syntax if needed)
+
+📬 Contact
+Feel free to contribute, raise issues, or get in touch via GitHub
