@@ -28,7 +28,7 @@ Notifications: React Toastify (comic styling enabled — improvements ongoing)
 bash
 Copy
 Edit
-git clone https://github.com/your-username/contact-app.git
+git clone https://github.com/Akshatsingh1103/contact-app.git
 cd contact-app
 2. Install Dependencies
 bash
